@@ -1,5 +1,5 @@
 {
-  "name": "EMBYv2",
+  "name": "Emby",
   "date": "2018.07.19",
   "version": "1.7.0",
   "description": "Emby server",
@@ -14,7 +14,7 @@
     "type": "app",
     "category": "apps",
     "backgroundColor": "#171717",
-    "name": "EMBYv2",
+    "name": "Emby",
     "description": "Emby server v2",
     "icons": {
       "paths": {
