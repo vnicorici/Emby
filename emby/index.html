@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		* {
+			background-color: transparent;
+		}
+	</style>
+	<script>
+		var href;
+		if ( screen.height === 720 ) {
+			href = 'http://tv.emby.media/';
+		} else {
+			href = 'http://tv.emby.media/'
+		}
+		location.href = href + location.search + location.hash;
+	</script>
+</body>
+</html>

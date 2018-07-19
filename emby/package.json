@@ -1,0 +1,33 @@
+{
+  "name": "EMBY",
+  "date": "2018.05.07",
+  "version": "1.6.0",
+  "description": "Emby server",
+  "author": {
+    "name": "StalkerApps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StalkerApps/emby.git"
+  },
+  "config": {
+    "type": "app",
+    "category": "apps",
+    "backgroundColor": "#171717",
+    "name": "EMBY",
+    "legacy": true,
+    "description": "Emby server",
+    "icons": {
+      "paths": {
+        "480": "img/480/",
+        "576": "img/576/",
+        "720": "img/720/",
+        "1080": "img/1080/"
+      },
+      "states": {
+        "normal": "normal.png",
+        "active": "active.png"
+      }
+    }
+  }
+}
